@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login Page</title>
+	<script>
+	        
+	     function checklogin()
+		 {
+			 if(f1.txtname.value=="Admin")
+				 {
+					 if(f1.txtpass.value=="admin123")
+						 {
+							 alert("Login success");
+							 location="adminlogin.html";
+						 }
+					 else
+					 {
+						 alert("Invalid password");
+						 f1.txtname.focus
+						 
+					 }
+					 
+				 }
+			 else
+			 {
+				 alert("Invalid Username!");
+			 }
+		 }
+	</script>
+</head>
+
+<body>
+	<form name= "f1" >
+		<legend>Login</legend>
+		<fieldset style="border-width: 5px">
+		<table>
+			<tr>
+		        <td>User Name:</td> 
+			    <td> <input type="Text" placeholder="Enter a User Name.." name="txtname"/> </td>
+			</tr>
+			<tr> 
+				<td><label>Password:</label> </td><br/>
+			
+				<td><input type="password" placeholder="Enter a Password.." name="txtpass"/> </td>
+			    
+
+			</tr>
+			
+			<tr><td><input type="button" value="Sign in" onclick="checklogin()"/></td>
+				<td><input type="reset" value="Reset"/></td>
+			
+			</tr>
+		</table>
+			</fieldset>
+	</form>
+</body>
+</html>
