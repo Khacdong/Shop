@@ -1,0 +1,91 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+
+#header{
+	width: auto;
+	height: 70px;
+	margin: 0px auto;
+	background-color:#3EA5EC;
+}
+#smart{
+	
+	float: left;
+	padding: 10px 90px 2px;
+	color: white;
+	font-size: 37px;
+	text-shadow: 2px 2px 5px ;
+	border: 2px;
+}
+#index{
+
+	float: left;
+	padding: 25px 7px 5px 5px;
+	text-decoration: none;
+	height: 30px;
+	word-spacing: 35px;
+	text-align: center;
+	font-size: 25px;
+}
+#s{
+	
+	float: left;
+	padding: 40px 2px 5px 2px;
+	color: white;
+	text-indent: 30px;
+	font-size: 22px;
+}
+
+#index a{
+	color: white;
+	text-decoration: none;
+}
+#index a:hover{ background: white;
+	color:black;
+}
+#detail{
+	width: 1080px;
+	margin: 0px auto;
+}
+#content a{
+	text-decoration: none;
+}
+#sale{
+	margin: 0px auto;
+	width: 1080px;
+}
+#content{margin: 0px auto;
+         width: 1080px;
+	height: auto;
+}
+
+#SP1{
+	width: 540px;
+	float: left;
+	
+}
+
+#SP2{
+	width: 540PX;
+	float: left;
+	
+}
+#name{
+	
+	padding-left: 40px;
+}
+#footer{
+	margin:0px auto;
+	width: auto;
+}
+#admin{
+	margin: auto;
+	align-content: center;
+	width: 800px;
+	padding-top: 100px;
+}
